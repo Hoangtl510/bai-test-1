@@ -1,0 +1,50 @@
+:root {
+  --textNavbar-color: #4F4B65;
+  --textBanner-color: #7E7FA0;
+  --blue-color: #616AE8;
+  --white-color: #fff;
+  --green-color: #20E5A7;
+  --black-color: #2E2A41;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  word-break: break-word;
+}
+body {
+  font-family: "Poppins";
+  font-size: 16px;
+  line-height: 1.2em;
+  background-color: #fff;	
+  padding: 0;
+  margin: 0;
+}
+img {
+	max-width: 100%;
+  height: auto;
+}
+a {
+  text-decoration: none;
+  &:hover {
+    text-decoration: none;
+  }
+}
+.overflow {
+	overflow: hidden;
+}
+button {
+  cursor: pointer;
+}
+.container_center {
+  max-width: 1440px;
+  margin: auto;
+  padding: 0 15px;
+  @media (max-width: 1199px){ 
+    max-width: 1140px;
+    padding: 0 15px;
+  }
+  @media (max-width: 991px){ 
+    max-width: 960px;
+  }
+}

@@ -1,0 +1,23 @@
+.tag {
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  display: flex;
+}
+.tag__after {
+  opacity: 0.7;
+  width: 0;
+  height: 0;
+  border-bottom: 16px solid var(--black-color);
+  border-right: 10px solid transparent;
+}
+.tag__before {
+  height: 25px;
+  width: 75px;
+  color: var(--white-color);
+  background-color: #5E68F9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 13px;
+}

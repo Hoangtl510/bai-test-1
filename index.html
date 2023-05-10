@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Triêu Lê Hoàng</title>
+  <link rel="stylesheet" href="./src/scss/index.css">
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://redpervn.github.io/fa/css/all.min.css?fbclid=IwAR2VnCVu3fZyZybhEPHqAoRF9xJd2ZJZ43gCLfQokvfv6X5YJv1_V3HNSyw">
+</head>
+<body>
+  <div class="overflow">
+    <section class="header">
+      <div class="header__wrapper container_center">
+        <div class="header__wrapper--logo">
+          <img src="./assets/image/Bitmap.png" alt="logo">
+        </div>
+        <div class="header__wrapper--navbar" id="navbar">
+          <ul id="navbar__menu" class="navbar__menu">
+          </ul>
+          <div class="navbar__button">
+            <button class="btn btn-blue navbar__button--get-started">Get started</button>
+            <button class="btn btn-green navbar__button--buy-now">Buy now</button>
+          </div>
+        </div>
+        <button class="header__wrapper--button-mobile " onclick="appearMenuMobile()">
+          <i id="icon__menu-mobile" class="fa-solid fa-bars-staggered"></i>
+        </button>
+      </div>
+    </section>
+    <section class="banner container_center">
+      <div class="row banner__wrapper" id="row-banner">
+      </div>
+    </section>
+    <section class="achievement">
+      <div class="achievement__header title-header ">
+        <span class="achievement__header-title text-title">
+          Trusted by over <span class="text-color">1000</span> users
+        </span>
+        <div class="achievement__header-subtitle text-subtitle">There are many things that are important to catalog design. Your images must be sharp and appealing.</div>
+      </div>
+      <div class="achievement__wrapper">
+        <div class="row achievement__content container_center">
+          <div class="col-md-6 col-sm-12  achievement__content-img">
+            <div class="achievement__content-outframe"></div>
+            <img src="./assets/image/1.png" alt="achievement"> 
+          </div>
+          <div class="col-md-6 col-sm-12">
+            <div class="col__left-header">
+              <i class="fa-regular fa-fire"></i>
+            </div>
+            <div class="col__left-content">
+              <div class="content__title text-subtitle">
+                Only five stars! and this despite the fact that the topic is still under improvement. I hope future updates will help her become even better. A great team with a great idea of the catalog.
+              </div>
+              <div class="content__author">
+                Dustin Barnes
+              </div>
+              <ul class="content__pagination">
+                <li></li>
+                <li></li>
+                <li></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <section class="features">
+        <div class="features__wrapper container_center">
+          <div class="features__header box__header title-header">
+            <span class="features__header-title text-title">
+              Essential <span class="text-color">features</span> for you
+            </span>
+            <div class="features__header-subtitle text-subtitle">There are many things that are important to catalog design. Your images must be sharp and appealing.</div>
+          </div>
+          <div class="features__content">
+            <div class="row" id="row-features">
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="popular container_center">
+        <div class="popular__header box__header title-header">
+          <div class="popular__header-title text-title">
+            Popular posts
+          </div>
+          <div class="popular__header-subtitle text-subtitle">
+            There are many things that are important to catalog design. Your images must be sharp and appealing.
+          </div>
+        </div>
+        <div class="popular__content">
+          <div class="row" id="row-popular">
+          </div>
+        </div>
+      </section>
+    </section> 
+  </div>
+  <script type="text/javascript" src="/src/js/index.js"></script>
+</body>
+</html>
