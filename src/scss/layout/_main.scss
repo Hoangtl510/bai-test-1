@@ -177,7 +177,7 @@
   }
 }
 .achievement__content-img {
-  @media (min-width: 575px) {
+  @media (max-width: 575px) {
     display: flex;
   }
 }
@@ -207,6 +207,10 @@
 }
 .features__item {
   margin-bottom: 20px;
+  min-height: 265px;
+  @media (max-width: 767px) {
+    min-height: 300px;
+  }
 }
 .features__item-icon {
   width: 70px;

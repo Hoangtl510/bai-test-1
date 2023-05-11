@@ -145,7 +145,7 @@ listBanner.forEach(element => {
 document.getElementById("row-banner").innerHTML = textBanner
 
 listFeatures.forEach(element => {
-  textFeatures += `<div class="col-xs-4">
+  textFeatures += `<div class="col-xs-12 col-sm-6 col-xl-4">
                     <div class="features__item box box-30px">
                       <div class="features__item-icon">
                         <i class="${element.iconFeatures}"></i>

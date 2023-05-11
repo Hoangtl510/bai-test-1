@@ -771,7 +771,7 @@ button {
   margin-right: 0;
 }
 
-@media (min-width: 575px) {
+@media (max-width: 575px) {
   .achievement__content-img {
     display: flex;
   }
@@ -807,6 +807,12 @@ button {
 
 .features__item {
   margin-bottom: 20px;
+  min-height: 265px;
+}
+@media (max-width: 767px) {
+  .features__item {
+    min-height: 300px;
+  }
 }
 
 .features__item-icon {
